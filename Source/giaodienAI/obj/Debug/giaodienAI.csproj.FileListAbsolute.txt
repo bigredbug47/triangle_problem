@@ -1,0 +1,12 @@
+C:\Users\LENOVO\Downloads\AI\AI\Source\giaodienAI\bin\Debug\giaodienAI.exe.config
+C:\Users\LENOVO\Downloads\AI\AI\Source\giaodienAI\bin\Debug\giaodienAI.exe
+C:\Users\LENOVO\Downloads\AI\AI\Source\giaodienAI\bin\Debug\giaodienAI.pdb
+C:\Users\LENOVO\Downloads\AI\AI\Source\giaodienAI\obj\Debug\giaodienAI.csprojResolveAssemblyReference.cache
+C:\Users\LENOVO\Downloads\AI\AI\Source\giaodienAI\obj\Debug\giaodienAI.Form1.resources
+C:\Users\LENOVO\Downloads\AI\AI\Source\giaodienAI\obj\Debug\giaodienAI.Properties.Resources.resources
+C:\Users\LENOVO\Downloads\AI\AI\Source\giaodienAI\obj\Debug\giaodienAI.csproj.GenerateResource.Cache
+C:\Users\LENOVO\Downloads\AI\AI\Source\giaodienAI\obj\Debug\giaodienAI.exe
+C:\Users\LENOVO\Downloads\AI\AI\Source\giaodienAI\obj\Debug\giaodienAI.pdb
+C:\Users\LENOVO\Downloads\AI\Source\giaodienAI\bin\Debug\giaodienAI.exe.config
+C:\Users\LENOVO\Downloads\AI\Source\giaodienAI\obj\Debug\giaodienAI.exe
+C:\Users\LENOVO\Downloads\AI\Source\giaodienAI\obj\Debug\giaodienAI.pdb

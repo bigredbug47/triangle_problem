@@ -1,0 +1,96 @@
+a,ha->S			rules1(a,ha,1)
+b,hb->S			rules1(b,hb,2)
+c,hc->S			rules1(c,hc,3)
+######
+a,S->ha			rules2(a,S,1)
+b,S->hb			rules2(b,S,2)
+c,S->hc			rules2(c,S,3)
+######
+ha,S->a			rules3(ha,S,1)
+hb,S->b			rules3(ha,S,2)	
+hc,S->c			...
+######
+b,sinC->ha
+c,sinB->ha
+c,sinA->hb		rules4(c,A,3)
+a,sinC->hb
+a,sinB->hc
+b,sinA->hc
+######
+ha,sinC->b
+ha,sinB->c
+hb,sinA->c
+hb,sinC->a
+hc,sinB->a		rules5(hc,B,5)
+hc,sinA->b
+######
+b,ha->sinC
+c,ha->sinB
+c,hb->sinA
+a,hb->sinC		rules6(a,hb,4)
+a,hc->sinB
+b,hc->sinA
+######
+a,b,c->S
+######
+a,b,c->p
+######
+p,b,c->a
+p,a,c->b
+p,a,b->c
+######
+b,c,cosA->a
+c,a,cosB->b
+a,b,cosC->c
+######
+a,b,c->cosA
+a,b,c->cosB
+a,b,c->cosC
+######
+a,sinA,sinB->b
+c,sinC,sinB->b
+a,sinA,sinC->c
+b,sinB,sinC->c
+b,sinB,sinA->a
+c,sinC,sinA->a
+######
+a,sinA,b->sinB
+b,sinB,a->sinA
+b,sinB,c->sinC
+c,sinC,b->sinB
+a,sinA,c->sinC		rules13(a,A,c,5)
+c,sinC,a->sinA
+######
+p,r->S                 rules14(p,r,S)
+######
+S,r->p                 rules15(S,r,p,1)
+S,p->r                 rules15(S,p,r,2)
+######
+b,c,a->ma              rules16(b,c,a,ma,1)
+a,c,b->mb              
+a,b,c->mc
+######
+b,c,ma->a              rules17(b,c,ma,a,1)
+a,c,mb->b
+a,b,mc->c
+######
+ma,a,c->b              rules18(ma,a,c,b,1)
+ma,a,b->c
+mb,b,c->a
+mb,b,a->c
+mc,c,b->a
+mc,c,a->b
+######
+a,b,c,S->R             rules19(a,b,c,S,R)
+######
+a,A->R
+b,B->R
+c,C->R
+######
+R,A->a
+R,B->b
+R,C->c
+######
+R,a->A
+R,b->B
+R,c->C

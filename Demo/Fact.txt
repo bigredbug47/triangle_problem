@@ -1,0 +1,16 @@
+A: canh a
+B: canh b
+C: canh c
+D: duong cao ha ke tu goc A
+E: duong cao hb ke tu goc B
+F: duong cao hc ke tu goc C
+G: goc A (A0)
+H: goc B (B0)
+I: goc C (C0)
+S: dien tich S
+P: Chu vi p
+R: ban kinh duong tron ngoai tiep R
+M: ban kinh duong tron noi tiep r
+N: duong trung tuyen ma ke tu goc A
+O: duong trung tuyen mb ke tu goc B
+L: duog trung tuyen mc ke tu goc C
